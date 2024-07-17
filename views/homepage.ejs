@@ -1,0 +1,21 @@
+<section>
+    <h1><strong>Welcome to the Home Page</strong></h1>
+    <div>
+        <button class="btn btn-light" onclick="signOut()">Sign Out</button>
+        <button class="btn btn-light" onclick="resetPassword()">Change Password</button>
+    </div>  
+</section>
+
+    <script>
+        // Function to handle sign-out
+        function signOut() {
+            // Perform sign-out logic (e.g., redirect to sign-out route)
+            window.location.href = "/user/signout";
+        }
+
+        // Function to handle reset password
+        function resetPassword() {
+            // Perform reset password logic (e.g., redirect to reset password route)
+            window.location.href = "/user/change-password";
+        }
+    </script>

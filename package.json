@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-authentication-app",
+  "version": "1.0.0",
+  "description": "This App is a basic authentication system built with NodeJS, Express, Mongoose  and PassportJS",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ravikant Singh",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.18.0",
+    "google-auth-library": "^9.11.0",
+    "mongoose": "^8.5.1",
+    "nodemailer": "^6.9.14",
+    "nodemon": "^3.1.4",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "path": "^0.12.7"
+  }
+}
